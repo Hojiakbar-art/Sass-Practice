@@ -266,3 +266,35 @@ header
     }
     
 }
+
+
+.sec6
+{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    background-color: #E5F0FD;
+    .main1
+    {
+        .hyou
+        {
+            width: 350px;
+        }
+        .psay
+        {
+            width: 350px;
+            color: grey;
+        }
+        .app
+        {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+    }
+    
+
+}

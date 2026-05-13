@@ -242,4 +242,26 @@ header .divhome {
 }
 .sec5 .cards .card {
   width: 300px;
+}
+
+.sec6 {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  background-color: #E5F0FD;
+}
+.sec6 .main1 .hyou {
+  width: 350px;
+}
+.sec6 .main1 .psay {
+  width: 350px;
+  color: grey;
+}
+.sec6 .main1 .app {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
