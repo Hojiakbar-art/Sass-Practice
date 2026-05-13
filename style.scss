@@ -38,6 +38,8 @@ header
     }
     
 }
+
+
 .sec1
 {
     max-width: 1400px;
@@ -79,6 +81,33 @@ header
             {
                 @include buttonblue(aliceblue, black)
             }
+        }
+    }
+}
+
+
+.sec2
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    border: 1px solid black;
+    .inner1sec2
+    {
+        display: flex;
+        flex-direction: column;
+        h1
+        {
+            width: 500px;
+            font-size: 50px;
+        }
+        .precent
+        {
+            width: 500px;
+            color: grey;
         }
     }
 }
