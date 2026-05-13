@@ -149,4 +149,43 @@ header .divhome {
   color: white;
   text-align: center;
   border: 1px solid #217BF4;
+}
+
+.sec4 {
+  max-width: 1400px;
+  margin: auto;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding: 40px 0;
+}
+.sec4 .pcom {
+  text-align: center;
+  color: #217BF4;
+}
+.sec4 .hmain {
+  text-align: center;
+  font-size: 40px;
+}
+.sec4 .pwise {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  color: grey;
+}
+.sec4 .divide {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.sec4 .divide .inner1sec4 {
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.sec4 .divide .inner1sec4 p {
+  color: grey;
 }/*# sourceMappingURL=style.css.map */
