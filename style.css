@@ -88,7 +88,8 @@ header .divhome {
   align-items: center;
   max-width: 1400px;
   margin: auto;
-  border: 1px solid black;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
 }
 .sec2 .inner1sec2 {
   display: flex;
@@ -101,4 +102,51 @@ header .divhome {
 .sec2 .inner1sec2 .precent {
   width: 500px;
   color: grey;
+}
+
+.sec3 {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.sec3 .inner1sec3 {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.sec3 .inner1sec3 .pthan {
+  width: 250px;
+  color: grey;
+}
+.sec3 .inner1sec3 .people {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sec3 .inner3sec3 {
+  display: flex;
+  flex-direction: column;
+}
+.sec3 .inner3sec3 .hwe {
+  width: 360px;
+  font-size: 35px;
+}
+.sec3 .inner3sec3 .pthe {
+  width: 360px;
+  color: grey;
+}
+.sec3 .inner3sec3 .pme {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  background-color: #217BF4;
+  color: white;
+  text-align: center;
+  border: 1px solid #217BF4;
 }/*# sourceMappingURL=style.css.map */
