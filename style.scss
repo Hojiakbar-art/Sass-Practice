@@ -208,3 +208,61 @@ header
         }
     }
 }
+
+
+
+.sec5
+{
+    max-width: 1400px;
+    margin: auto;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 40px 0;
+    .team
+    {
+        text-align: center;
+        color: #217BF4;
+    }
+    .active
+    {
+        text-align: center;
+        font-size: 40px;
+    }
+    .pwhen
+    {
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        color: grey;
+    }
+    .option
+    {
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        margin: auto;
+        padding: 5px;
+        align-items: center;
+        width: 600px;
+        background: #D4E7FE;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-top: 30px;
+    .pactive2
+    {
+        @include buttonblue(#217BF4, white)
+    }
+    }
+    .cards
+    {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 30px;
+        .card
+        {
+            width: 300px;
+        }
+    }
+    
+}
